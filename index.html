@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">  
+</head>
+
+
+
+ <!--------------------------Body------------------>
+<body>
+    <div id="header">
+        <div class="container">
+
+             <!---------------Navbar-------------------->
+            <nav>
+                 <img src="Images/LOGO1..png" class="Logo">
+                 <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#Portfolio">Portfolio</a></li>
+                    <li><a href="#content">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                 </ul>
+                 <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+
+              <!---------------------Headertext----------------->
+            <div class="header-text">
+                <p>UI/UX Designer.</p>
+                <h1>Hi, I’m <span>Mercy Udongo</span><br>A Passionate UI/UX Designer.<br>
+                    With a knack in creating intuitive<br>and engaging digital experiences.</h1>
+            </div>
+        </div>
+    </div>
+
+    <!------------------------Aboutme------------------------>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-column-1">
+                    <img src="Images/Passport.jpg">
+
+                </div>
+                    <div class="about-column-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>I’m a UI/UX designer passionate about creating intuitive and engaging digital experiences. 
+                            With a background in Electrical Electronics Engineering, I combine technical insight with
+                             creative design to craft user-centered solutionsthat are both functional and visually 
+                             compelling. Let’s bring ideas to life!</p>
+
+                             <div class="tab-titles">
+                                <p class="tab-links active-link" onclick="opentap('Skills')">Skills</p>
+                                <p class="tab-links"onclick="opentap('Experience')">Experience</p>
+                                <p class="tab-links"onclick="opentap('Education')">Education</p>
+                             </div>
+
+                             <!---------------------------Tab-content-1------------------>
+
+                             <div class="tab-contents active-tab" id="Skills">
+                             <ul>
+                                <li><strong><span>UI/UX (Mobile And Web Apps)</span></strong><br>
+                                    User Research<br>User Flow<br>User Persona<br>Information Architecture<br>User Interface<br>
+                                    Useability Testing<br>Design System<br>Prototyping<br>Figma<br>Miro<br>Notion</li>
+                            </div>
+                             </ul>
+
+                            <!---------------------------Tab-content-2-------------------->
+                            <div class="tab-contents" id="Experience">
+                                <ul>
+                                   <li><strong><span>Product Designer Trainee<br>
+                                    (Women Techsters Fellowship 2023-2024)</span></strong>
+                                <br>Conduct user research to determine users pain point and challenges.<br>
+                                Create design concept and drawing to determine the best Product.<br>
+                                Translate concepts into wireframes, prototypes and user flow using specialize tools.<br>
+                                Design user journey mapping to know how users will navigate the product.</li><br>
+
+                                <li><strong><span>Product Designer Trainee<br>
+                                    (She Code Africa 2024).</span></strong><br>
+                                    Carry out prototyping to understand if the product meet the need of th users.<br>
+                                    Conduct useability testing.<br>
+                                    Design low-fidelity and high-fidelity mockups.</li>
+ 
+                                </ul>
+                               </div>
+<!--------------------------------------------------------------Tab-content-3----------------------------------------->
+                               <div class="tab-contents" id="Education">
+                                <ul>
+                                   <li><strong><span>Electrical Electronics Engineering</span></strong><br>
+                                2018-2021<br>
+                            Federal Polytechnic Nekede<br>
+                            Higher National Diploma </li>
+                            <li><strong><span>Product Design</span></strong><br>
+                                2023-2024<br>
+                            Women Techster Fellowship (Tech4Dev)</li>
+                            <li><strong><span>Product Design</span></strong><br>
+                                2024<br>
+                            She Code Africa</li>
+
+                            <li><strong><span>UI/UX Design</span></strong><br>
+                                2024<br>
+                            Google UI/UX Design (Coursera)</li>
+                               <!-------</div>------>
+                                </ul>
+                               </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!---------------------My Services----------->
+    <div id="services">
+        <div class=" container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fas fa-pen-nib"></i>
+                    <h2>UI/UX</h2>
+                    <p>Conduct user research to determine users pain point and challenges.<br>
+                    <br>
+                        </p>
+                        <!--------<a href="#">Learn More</a>------------>
+                     </div>
+                     <div>
+                        <i class="fas fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Conduct user research to determine users pain point and challenges.<br>
+                        <br>
+                        </p>
+                        <!---------<a href="#">Learn More</a>---------->
+                     </div>
+
+                     <div>
+                        <i class="fas fa-pencil-ruler"></i> 
+                    <h2>Graphics Design</h2>
+                    <p>Conduct user research to determine users pain point and challenges.<br>
+                        <br>
+                        </p>
+                        <!--------<a href="#">Learn More</a>------->
+            </div>
+                    </div>
+                </div>
+            </div>
+            <div id="Portfolio">
+                <div class="container">
+                    <h1 class="sub-title">My Works</h1>
+                    <div class="work-list">
+                        <div class="work">
+                            <img src="Images/Citydrop-img.png">
+                            <div class="layer">
+                                <h3>City Drop</h3>
+                                <p>Online Parcel Delivery Mobile</p>
+                                <a href="https://www.behance.net/gallery/222447293/Logistics-Mobile-App"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                         <div class="work">
+                            <img src="Images/MacBook Air (15 inch).png">
+                            <div class="layer">
+                                <h3>Portfolio</h3>
+                                <p>Online portfolio that shows my works</p>
+                                <a href="https://mercygreen.netlify.app/"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div> 
+
+                       <!----------------------------- <div class="work">
+                            <img src="Images/iPhone 16.png">
+                            <div class="layer">
+                                <h3>City Drop</h3>
+                                <p>Online Parcel Delivery Mobile</p>
+                                <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>----------->
+
+                    </div>
+                </div>
+
+            </div>
+            <div id="content">
+                <div class="container">
+                    <div class="row">
+                        <div class="contact-left">
+                            <h1 class="sub-title">Contact Me</h1>
+                            <p><i class="fas fa-envelope"></i>mercyudongo@gmail.com</p>
+                            <p><i class="fas fa-phone"></i>+2349068357185</p>
+                            <div class="social-icons">
+                                <a href=""><i class="fab fa-linkedin"></i> </a>
+                                <a href=""><i class="fab fa-facebook"></i> </a>
+                                <a href=""><i class="fab fa-instagram"></i> </a>
+                            </div>
+                            <a href="images/RESUME PDF.png" download class="btn btn2">Download CV</a>
+                        </div>
+            
+                        <div class="contact-right">
+                            <form name="submit-to-google-sheet">
+                                <input type="text" name="Name" placeholder="Your Name" required>
+                                <input type="email" name="Email" placeholder="Your email" required>
+                                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                                <button type="submit" class="btn btn2">submit</button>
+                            </form>
+                            <span id="msg"></span>
+                        </div>
+                    </div>
+                </div>
+                <!----------------------------------Footer Starts---------------------------->
+    <div class="footer-content4">
+        <p>copyright © 2025 Mercygreen Designs. All Rights Reserved.</p>
+        <div class="social-icons">
+            <a href=""><i class="fab fa-facebook"></i> </a>
+            <a href="https://www.linkedin.com/in/mercy-udongo-7657a3112?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BlcESr%2FJJQ46ynwCIv%2BSgtw%3D%3D"><i class="fab fa-linkedin"></i> </a>
+            <a href=""><i class="fab fa-instagram"></i> </a>
+        </div>
+    </div>
+   </div>
+   <!----------------------------------Footer Ends---------------------------->
+                    </div>
+                </div>
+            </div>
+</div>
+
+
+   
+    <script>
+var tablinks = document.getElementsByClassName("tab-links");
+var tabcontents = document.getElementsByClassName("tab-contents");
+
+function opentap(tabname){
+    for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+    }
+
+     for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+}
+event.currentTarget.classList.add("active-link");
+document.getElementById(tabname).classList.add("active-tab");
+
+}
+    </script>
+
+    <script>
+        
+        var sidemeu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemeu.style.right = "0";
+        }
+
+        function closemenu(){
+            sidemeu.style.right = "-200px";
+        }
+    </script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyE-M1PT4iikQ6Vpz5bmEzGAYqBdsglYvQe4JYB51Y2ZiFVwtAfz0_siImy0ZmjMJcW/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+   
+</body>
+</html>
